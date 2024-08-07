@@ -1,0 +1,22 @@
+:root {
+    width: 100vw;
+    min-height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.Contenedor {
+    display: flex;
+    flex: 1;
+    background-color: beige;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Boton {
+    cursor: pointer;
+    border-radius: 10px;
+    padding: 10px 15px;
+    margin: 10px;
+    background-color: darkgreen;
+}
